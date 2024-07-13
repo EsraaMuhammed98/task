@@ -1,0 +1,7 @@
+    .graph{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 10px;
+max-height: 90vh; 
+ }

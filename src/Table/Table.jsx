@@ -40,7 +40,7 @@ export default function Table(){
 
 
     return <>
- <table class="table table-bordered my-5">
+ <table className="table table-bordered my-5">
  <thead>
           <tr className="text-center">
             <th>Customer Name</th>
@@ -54,15 +54,15 @@ export default function Table(){
               <td>{transaction.name}</td>
 
               <td>
-                {transaction.data.map((t) => (
-                  <div>
+                {transaction.data.map((t,index) => (
+                  <div key={index}>
                     <div>{t.date}</div>
-                  </div>
+                   </div>
                 ))}
               </td>
               <td>
-                {transaction.data.map((t) => (
-                  <div>
+                {transaction.data.map((t,index) => (
+                  <div key={index}>
                     <div>{t.amount}</div>
                   </div>
                 ))}

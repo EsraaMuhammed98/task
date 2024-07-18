@@ -9,7 +9,8 @@ import LayOut from './LayOut/Layout';
 let routes = createBrowserRouter([
   { path: '/', element: <LayOut />, children: [
     {index:true , element:<Graph/> },
-    {path:'table' , element:<Table/> }
+    {path:'table' , element:<Table/> },
+    {path:'*' ,element:<h1>Not Found</h1>}
   ]}
   ])
 function App() {

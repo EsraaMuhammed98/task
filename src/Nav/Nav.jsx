@@ -10,15 +10,15 @@ export default function Nav(){
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav mx-auto">
+    <ul className="navbar-nav mx-auto"> 
       <li className="nav-item active">
-        <Link  className="nav-link" to="/graph">Graph</Link>
+        <Link  className="nav-link" to="/">Graph</Link>
       </li>
       <li className="nav-item">
         <Link  className="nav-link" to="/table">Table</Link>
       </li>
     </ul>
-   
+    
   </div>
 </div>
 </nav>    

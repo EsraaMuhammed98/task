@@ -8,7 +8,7 @@ import LayOut from './LayOut/Layout';
  
 let routes = createBrowserRouter([
   { path: '/', element: <LayOut />, children: [
-    {path:'graph' , element:<Graph/> },
+    {index:true , element:<Graph/> },
     {path:'table' , element:<Table/> }
   ]}
   ])
